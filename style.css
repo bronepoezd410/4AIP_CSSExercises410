@@ -1,24 +1,9 @@
-.success {
+#elem2 {
 	color: green;
 }
-.error {
+#elem1 {
 	color: red;
 }
-.large {
-	font-size: 30px;
-}
-.small {
-	font-size: 20px;
-}
-
-.cosmos {
-    color: blueviolet;
-}
-
-.gigantic {
-    font-size: 100px;
-}
-
-.fontstyle{
-    font-style: italic;
+#elem3 {
+    color: blue;
 }
