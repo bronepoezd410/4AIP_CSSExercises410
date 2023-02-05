@@ -1,17 +1,9 @@
-body {
-	background-image: url(bg.png);
-	background-attachment:fixed;
+#odin ul {
+	list-style-type: square;
 }
-/* body {
-	background-image: url(bg.png);
-	background-repeat: repeat-y;
-} */
-/* body {
-	background-image: url(bg.png);
-	background-repeat: repeat-x;
-} */
-
-#elem {
-	background-image: url(bg.png);
-
+#dva ul {
+	list-style-type: circle;
+}
+#tri ul {
+	list-style-type:none;
 }
