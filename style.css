@@ -1,9 +1,11 @@
-#odin ul {
-	list-style-type: square;
+/* 
+ol {
+	list-style-type: lower-alpha;
 }
-#dva ul {
-	list-style-type: circle;
-}
-#tri ul {
-	list-style-type:none;
+
+ol {
+	list-style-type: lower-greek;
+} */
+ol {
+	list-style-type: upper-alpha;
 }
