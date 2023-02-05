@@ -1,16 +1,11 @@
-p:first-of-type {
+#ko li:not(.elem){
 	color: red;
 }
 
-h2:last-of-type {
+#koko li:not(:first-child){
 	color: red;
 }
-h2:nth-of-type(2) {
-	color: blue;
-}
-h2:nth-last-of-type(2) {
-	color: blue;
-}
-a:only-of-type {
-	color: green;
+
+#kokoko li:not(:first-child, :last-child){
+	color: red;
 }
