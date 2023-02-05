@@ -1,6 +1,17 @@
+body {
+	background-image: url(bg.png);
+	background-attachment:fixed;
+}
+/* body {
+	background-image: url(bg.png);
+	background-repeat: repeat-y;
+} */
+/* body {
+	background-image: url(bg.png);
+	background-repeat: repeat-x;
+} */
+
 #elem {
-	width: 100px;
-	height: 100px;
-	border: 1px solid green;
-	border-radius: 50%;
+	background-image: url(bg.png);
+
 }
