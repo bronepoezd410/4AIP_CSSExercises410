@@ -1,21 +1,15 @@
-#elem {
-	padding: 10px 20px 40px 60px;
-	
-	width: 300px;
-	border: 1px solid red;
-	text-align: justify;
+#elem1 {
+	width: 100px;
+	height: 100px;
+	background: #f1f1f1;
+	margin-bottom: 20px;
 }
+
 #elem2 {
-	padding: 80px 40px;
-	
-	width: 300px;
-	border: 1px solid red;
-	text-align: justify;
-}
-#elem3 {
-	padding: 10px 20px 30px;
-	
-	width: 300px;
-	border: 1px solid red;
-	text-align: justify;
+	width: 100px;
+	height: 100px;
+	background: #eb7171;
+	padding: 25px;
+	border: 10px solid red;
+	box-sizing: border-box;
 }
