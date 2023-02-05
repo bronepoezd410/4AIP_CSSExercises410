@@ -1,32 +1,16 @@
-/* li:first-child{
-    color:red;
-}
-li:last-child{
-    color: green;
-}
-li:nth-child(3){
-    color:rgb(255, 181, 44);
+p:first-of-type {
+	color: red;
 }
 
-.second:nth-child(even){
-    color: green;
+h2:last-of-type {
+	color: red;
 }
-.second:nth-child(odd){
-    color: red;
+h2:nth-of-type(2) {
+	color: blue;
 }
-
-.third:nth-last-child(2){
-color: green;
+h2:nth-last-of-type(2) {
+	color: blue;
 }
-
-.fourth:only-child{
-    color: red;
+a:only-of-type {
+	color: green;
 }
-
-.empty:empty{
-    border: 1px solid blue;
-}
-li.empty{
-    border: 1px solid red;
-    margin: 5px;
-} */
