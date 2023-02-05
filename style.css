@@ -1,36 +1,107 @@
-.parent {
-	display: flex;
-	justify-content: center;
-	height: 400px;
-	width: 500px;
+#elem1 {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 50px;
+	height: 50px;
 	border: 1px solid red;
 }
-.parent1 {
-	display: flex;
-	justify-content: center;
-	height: 400px;
-	width: 500px;
-	border: 1px solid red;
-	justify-content: space-between;
-	}
-.parent2 {
-	display: flex;
-	justify-content: center;
-	height: 400px;
-	width: 500px;
-	border: 1px solid red;
-	justify-content: space-around;
-	}
-.parent3 {
-	display: flex;
-	justify-content: center;
-	height: 400px;
-	width: 500px;
-	border: 1px solid red;
-	justify-content: space-evenly;
-	}
-.child {
-	width: 70px;
+#elem2 {
+	position: absolute;
+	top: 90px;
+	left: 90px;
+	width: 50px;
 	height: 50px;
 	border: 1px solid green;
+}
+#elem3 {
+	position: absolute;
+	top: 160px;
+	left: 160px;
+
+	width: 50px;
+	height: 50px;
+	border: 1px solid blue;
+}
+
+#elem4 {
+	position: absolute;
+	top: 230px;
+	left: 20px;
+	width: 50px;
+	height: 50px;
+	border: 1px solid red;
+}
+#elem5 {
+	position: absolute;
+	top: 230px;
+	left: 90px;
+	width: 50px;
+	height: 50px;
+	border: 1px solid green;
+}
+#elem6 {
+	position: absolute;
+	top: 230px;
+	left: 160px;
+
+	width: 50px;
+	height: 50px;
+	border: 1px solid blue;
+}
+
+#elem7 {
+	position: absolute;
+	top: 320px;
+	left: 20px;
+	width: 50px;
+	height: 50px;
+	border: 1px solid red;
+}
+#elem8 {
+	position: absolute;
+	top: 355px;
+	left: 55px;
+	width: 50px;
+	height: 50px;
+	border: 1px solid green;
+}
+#elem9 {
+	position: absolute;
+	top: 390px;
+	left: 90px;
+
+	width: 50px;
+	height: 50px;
+	border: 1px solid blue;
+}
+
+
+#elem10 {
+	position: absolute;
+	top: 420px;
+	left: 20px;
+	width: 50px;
+	height: 50px;
+	border: 1px solid red;
+	background-color: red;
+}
+#elem11 {
+	position: absolute;
+	top: 455px;
+	left: 55px;
+	width: 50px;
+	height: 50px;
+	border: 1px solid green;
+	background-color: green;
+}
+#elem12 {
+	position: absolute;
+	top: 490px;
+	left: 90px;
+
+	width: 50px;
+	height: 50px;
+	border: 1px solid blue;
+	background-color: blue;
 }
