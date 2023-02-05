@@ -1,27 +1,32 @@
-a {
-	color: red;
+/* li:first-child{
+    color:red;
 }
-a:hover {
-	text-decoration: none;
+li:last-child{
+    color: green;
 }
-
-a.zzz {
-	color: red;
-}
-a.zzz:hover {
-	text-decoration: none;
+li:nth-child(3){
+    color:rgb(255, 181, 44);
 }
 
-#block a.zzz {
-	color: red;
+.second:nth-child(even){
+    color: green;
 }
-#block a.zzz:hover {
-	text-decoration: none;
+.second:nth-child(odd){
+    color: red;
 }
 
-.block a.zzz {
-	color: red;
+.third:nth-last-child(2){
+color: green;
 }
-.block a.zzz:hover {
-	text-decoration: none;
+
+.fourth:only-child{
+    color: red;
 }
+
+.empty:empty{
+    border: 1px solid blue;
+}
+li.empty{
+    border: 1px solid red;
+    margin: 5px;
+} */
