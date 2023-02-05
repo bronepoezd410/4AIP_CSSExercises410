@@ -1,3 +1,27 @@
-#elem ~ li {
-	color: red;
+g[title]{
+    color: red;
+}
+
+p[title]{
+    color: red;
+}
+
+p[title = privet]{
+color: red;
+}
+
+a[href^="http://"]{
+    color: red;
+}
+
+a[href*=".html"] {
+    color:red;
+}
+
+p[title~=priv] {
+    color: red;
+}
+
+[class|="top"]{
+    color: red;
 }
