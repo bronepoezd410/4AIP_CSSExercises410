@@ -1,7 +1,3 @@
-#elem + li{
-	color: red;
-}
-
-.elem + li {
+#elem ~ li {
 	color: red;
 }
