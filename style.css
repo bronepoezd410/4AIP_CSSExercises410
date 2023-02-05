@@ -1,27 +1,17 @@
-    /* g[title]{
-        color: red;
-    }
-    
-    p[title]{
-        color: red;
-    }
-    
-    p[title = privet]{
-    color: red;
-    }
-    
-    a[href^="http://"]{
-        color: red;
-    }
-    
-    a[href*=".html"] {
-        color:red;
-    }
-    
-    p[title~=priv] {
-        color: red;
-    }
-    
-    [class|="top"]{
-        color: red;
-    } */
+a:link {
+	color: blue;
+	text-decoration: none;
+}
+a:visited {
+	color: blue;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	color: red;
+
+}
+a:active {
+	color: blue;
+	text-decoration: none;
+}
