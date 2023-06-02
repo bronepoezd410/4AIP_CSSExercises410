@@ -1,11 +1,57 @@
-.parent {
-    border: 1px solid red;
-    text-align: justify;
+.abc {
+    padding: 10px;
+    margin: 10px;
+    background: #08c;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
 }
 
-.child {
-    float: right;
+.abc:hover {
+    background: #0af;
+}
+
+.one {
     width: 200px;
-    height: 100px;
-    border: 1px solid green;
+    border: 1px solid orange;
+}
+.two {
+    height: 80px;
+    border: 1px dashed blue;
+    margin: 20px 45px 100px 10px;
+    text-align: center;
+}
+
+.one1 {
+    width: 200px;
+    border: 1px solid orange;
+}
+.two1 {
+    height: 50px;
+    border: 1px dashed blue;
+    margin: 30px 50px;
+    text-align: center;
+}
+
+.one2 {
+    width: 200px;
+    border: 1px solid orange;
+}
+.two2 {
+    height: 50px;
+    border: 1px dashed blue;
+    margin: 100px 40px;
+    text-align: center;
+}
+
+.one3 {
+    width: 200px;
+    border: 1px solid orange;
+}
+.two3 {
+    height: 50px;
+    border: 1px dashed blue;
+    margin: 100px 30px 40px;
+    text-align: center;
 }
