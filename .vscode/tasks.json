@@ -28,6 +28,7 @@
             "type": "promptString",
             "description": "Enter the commit message",
             "default": "Initial commit"
+            // CTRL + SHIFT + B
         }
     ]
 }
